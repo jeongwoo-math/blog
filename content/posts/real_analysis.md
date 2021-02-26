@@ -3,7 +3,7 @@ title: Real Analysis (MAS540)
 description:
 toc: true
 authors:
-  - example-author
+  - jwpark
 tags:
 categories:
 series:
@@ -13,10 +13,10 @@ featuredImage:
 draft: false
 ---
 
-# 1st week
+**Proposition**. The 3-adic representation of the Cantor set can be generalized to the Cantor-like sets.
 
-What is a measure? Roughly, a measure is a $[0,\infty]$-valued function on a set of sets. Before to give an explicit definition of measure, let's see some motivated examples.
 
-**Examples**.
-1. Counting measure on $\mathbb{Z}$ : $A \mapsto \operatorname{card} A$ where $A$ is a subset of $\mathbb{Z}$.
-2. 
+**Proposition**. The unique countable perfect subset of a complete metric space is the empty set.
+
+*Proof*. Let $A$ be a countable perfect subset of a complete metric space $(X,d)$. It is easy to show that the metric space $(A,d|_{A \times A})$ is also a complete metric space, in particular, it is a Baire space. Since $A$ has no isolated point, it is either empty or countably infinite. Suppose that $A = \lbrace a_i \rbrace _{i \in \mathbb{N}}$ is countably infinite. We define open dense subsets $A_j = \lbrace a_i \rbrace_{i \ge j}$ of $A$ for all $j \in \mathbb{N}$. By the definition of Baire space, $\bigcap_{j \in \mathbb{N}} A_j = \empty$ must be dense in $A$, but it is impossible. Hence, $A$ must be the empty set. (More generally, the unique countable Baire space without isolated point is the empty set, and in particular, $\mathbb{Q}$ is not a Baire space.) //
+
